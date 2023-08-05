@@ -1,0 +1,133 @@
+.mainnavbar {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-bottom: 100px;
+}
+.mainnavbar .leftpart {
+  width: 40%;
+}
+.mainnavbar .rightpart {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+.mainnavbar .rightpart .lp {
+  width: 300px;
+}
+.mainnavbar .rightpart .lp ul li {
+  list-style: none;
+  font-size: 12px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.mainnavbar .rightpart .lp .ulist {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 30px;
+}
+
+.mainpart2 {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.mainpart2 h1 {
+  font-size: 60px;
+  width: 400px;
+  opacity: 80%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 100;
+}
+.mainpart2 h4 {
+  opacity: 50%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+  width: 400px;
+}
+.mainpart2 .lepe {
+  padding-right: 30px;
+  width: 50%;
+}
+.mainpart2 .lepe img {
+  width: 150px;
+}
+
+.toqa {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  opacity: 80%;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.mainpart3 {
+  display: flex;
+  width: 60%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.mainpart3 .kontik {
+  width: 150px;
+}
+.mainpart3 .darun {
+  width: 150px;
+}
+.mainpart3 .darun h4 {
+  width: 150px;
+  text-align: center;
+  margin-top: 7px;
+  margin-bottom: 3px;
+  opacity: 70%;
+}
+.mainpart3 .darun img {
+  justify-content: end;
+  align-items: end;
+  text-align: center;
+  padding-left: 16%;
+}
+
+.ss {
+  margin-top: 7px;
+  margin-bottom: 7px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 500;
+  width: 150px;
+  text-align: center;
+}
+
+.main4 {
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.main4 .qti {
+  width: 30%;
+  text-align: center;
+}
+.main4 .qti p {
+  width: 250px;
+  margin-left: 20px;
+}
+.main4 .qti h3 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.backk {
+  width: 150px;
+  position: relative;
+  left: 22px;
+  top: 52px;
+}
+
+.compic {
+  position: relative;
+  right: 80px;
+}/*# sourceMappingURL=style.css.map */

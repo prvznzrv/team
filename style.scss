@@ -1,0 +1,145 @@
+.mainnavbar{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+    padding-bottom: 100px;
+    .leftpart{
+        width: 40%;
+    }
+    .rightpart{
+        width: 60%;
+        display: flex;
+        justify-content: space-between;
+        .lp{
+            width: 300px;
+            ul li{
+                list-style: none;
+                font-size: 12px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            .ulist{
+                display: flex;
+                justify-content: space-between;
+                padding-right: 30px;
+                
+                
+            }
+        }
+
+    }
+}
+.mainpart2{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+   h1{
+    font-size: 60px;
+    width: 400px;
+    opacity: 80%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+   }
+   h4{
+    opacity: 50%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+   width: 400px;
+   }
+   .lepe{
+    padding-right: 30px;
+    width: 50%;
+    img{
+        width: 150px;
+
+    }
+   }
+
+}
+.toqa{
+
+    width: 80%;
+    margin: 0 auto;
+
+    text-align: center;
+    opacity: 80%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+    .mainpart3{
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    
+    justify-content: space-between;
+  
+    
+    .kontik{
+        width: 150px;
+      
+        }
+        .darun{
+
+           
+            width: 150px;
+           h4{
+            width: 150px;
+            text-align: center;
+            margin-top: 7px;
+            margin-bottom: 3px;
+            opacity: 70%;
+           }
+           img{
+            justify-content: end;
+            align-items: end;
+            text-align: center;
+            padding-left: 16%;
+           }
+        }
+    }
+
+    .ss{
+   
+        margin-top: 7px;
+        margin-bottom: 7px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 500;
+        width: 150px;
+        text-align: center;
+    }
+    .main4{
+        height: fit-content;
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        .qti{
+
+            width: 30%;
+            text-align: center;
+            p{
+            width: 250px;
+            margin-left: 20px;
+            }
+            h3{
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+        }
+    }
+    .backk{
+        width: 150px;
+
+        position: relative;
+        left: 22px;
+        top: 52px;
+        
+    }
+    .compic{
+        position: relative;
+        right: 80px;
+    }
+    
