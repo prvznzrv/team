@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+.container{
+    margin: 0 auto;
+    background-color: rgba(249, 250, 255, 1);
+    width: 1520pxclear;
+    height: 1200px;
+}
+
+.photo h1 {
+    width: 572px;
+    height: 52px;
+    font-size: 40px;
+    font-weight: 400;
+    color: rgba(61, 61, 63, 1);
+    font-family: 'DM Sans', sans-serif;
+    position: absolute;
+    padding-left: 500px;
+    padding-top: 50px;
+}
+.photo img {
+    display: inline-block;
+    margin-left: 5.5%;
+    padding-top: 200px;
+}
+.photo h2 {
+    width: 393px;
+    height: 46px;
+    font-size: 20px;
+    color: rgba(61, 61, 63, 1);
+    font-weight: 500;
+    font-family: 'DM Sans', sans-serif;
+    margin-left: 5.5%;
+    padding-top: 20px;
+    position: absolute;
+    text-align: center;
+    background-color: white;
+    border-radius: 7px;
+}
+.photo h3 {
+    width: 393px;
+    height: 46px;
+    font-size: 20px;
+    color: rgba(61, 61, 63, 1);
+    font-weight: 500;
+    font-family: 'DM Sans', sans-serif;
+    padding-top: 20px;
+    position: absolute;
+    text-align: center;
+    background-color: white;
+    margin-left: 37%;
+    border-radius: 7px;
+}
+.photo h4 {
+    width: 393px;
+    height: 46px;
+    font-size: 20px;
+    color: rgba(61, 61, 63, 1);
+    font-weight: 500;
+    font-family: 'DM Sans', sans-serif;
+    padding-top: 20px;
+    position: absolute;
+    text-align: center;
+    background-color: white;
+    margin-left: 68.6%;
+    border-radius: 7px;
+}
+
+
+.photo2 img {
+    margin-top: 120px;
+    margin-left: 5.5%;
+}
+.photo2 h2 {
+    width: 393px;
+    height: 46px;
+    font-size: 20px;
+    color: rgba(61, 61, 63, 1);
+    font-weight: 500;
+    font-family: 'DM Sans', sans-serif;
+    margin-left: 5.5%;
+    padding-top: 20px;
+    position: absolute;
+    text-align: center;
+    background-color: white;
+    border-radius: 7px;
+}
+.photo2 h3 {
+    width: 393px;
+    height: 46px;
+    font-size: 20px;
+    color: rgba(61, 61, 63, 1);
+    font-weight: 500;
+    font-family: 'DM Sans', sans-serif;
+    padding-top: 20px;
+    position: absolute;
+    text-align: center;
+    background-color: white;
+    margin-left: 37%;
+    border-radius: 7px;
+}
+.photo2 h4 {
+    width: 393px;
+    height: 46px;
+    font-size: 20px;
+    color: rgba(61, 61, 63, 1);
+    font-weight: 500;
+    font-family: 'DM Sans', sans-serif;
+    padding-top: 20px;
+    position: absolute;
+    text-align: center;
+    background-color: white;
+    margin-left: 70%;
+    border-radius: 7px;
+}
+.photo2 button {
+    width: 242px;
+    height: 53px;
+    background-color: rgba(243, 95, 47, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+    font-weight: 100;
+    font-family: 'DM Sans', sans-serif;
+    margin-top: 150px;
+    margin-left: 42%;
+    border-radius: 5px solid rgba(243, 95, 47, 1);
+}
+
+@media (max-width:780px) {
+    .photo{
+        width: 100%;
+    }
+     .photo2{
+        width: 100%;
+     }
+}
+@media (max-width: 480px) {
+    .photo{
+        display: flex;
+        flex-direction: column;
+    }
+    .photo2{
+        display: flex;
+        flex-direction: column;
+    }
+}
